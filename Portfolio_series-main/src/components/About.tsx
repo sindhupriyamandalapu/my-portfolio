@@ -13,7 +13,7 @@ export default function About() {
   return (
     <>
       <SectionHeading kicker="The Pilot" title="About Me" />
-      <div className="gutter grid items-center gap-10 lg:grid-cols-[minmax(0,5fr)_minmax(0,6fr)] lg:gap-16">
+      <div className="gutter grid items-center gap-10 lg:grid-cols-[minmax(0,4fr)_minmax(0,6fr)] lg:gap-16">
         <motion.div
           className="mx-auto w-full max-w-md lg:max-w-none"
           initial={{ opacity: 0, scale: 0.88, filter: 'blur(12px)' }}
@@ -22,7 +22,7 @@ export default function About() {
           transition={{ duration: 1.2, ease: EASE }}
         >
         <Tilt max={5} className="rounded-2xl">
-          <div className="relative aspect-[4/5] overflow-hidden rounded-2xl ring-1 ring-white/10">
+          <div className="relative aspect-[4/5] w-[85%] mx-auto overflow-hidden rounded-2xl ring-1 ring-white/10 lg:w-full">
           <img
   src="/assets/portrait.jpg"
   alt="Sindhu Priya"
@@ -45,7 +45,7 @@ export default function About() {
 
         <div>
           <motion.p
-            className="font-serif text-[clamp(1.6rem,3.2vw,2.6rem)] italic leading-[1.15] text-bone"
+            className="font-serif text-[clamp(1.3rem,2.5vw,2rem)] italic leading-[1.15] text-bone"
             initial={{ opacity: 0, y: 24, filter: 'blur(8px)' }}
             whileInView={{ opacity: 1, y: 0, filter: 'blur(0px)' }}
             viewport={{ once: true }}
@@ -53,7 +53,7 @@ export default function About() {
           >
             “{profile.intro}”
           </motion.p>
-          <p className="mt-4 text-sm text-mist">— {profile.fullName}</p>
+          
 
           <motion.dl
             className="mt-10 grid gap-px overflow-hidden rounded-xl bg-white/10 sm:grid-cols-2"

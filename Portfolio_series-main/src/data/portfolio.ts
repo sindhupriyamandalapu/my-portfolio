@@ -16,8 +16,7 @@ export const profile = {
   originalLabel: 'A SINDHU PRIYA ORIGINAL',
   role: 'Python Full Stack | Frontend Developer',
   tagline: ['Python Full Stack | Frontend Developer'],
-  intro:
-  'Aspiring Full Stack Developer passionate about building modern, responsive, and user-friendly web applications. Interested in React, Python, and Django, with a strong focus on developing both frontend and backend skills and creating seamless user experiences. Eager to learn, grow, and contribute to innovative projects.',
+  intro: 'Aspiring Full Stack Developer passionate about building modern, responsive, and user-friendly web applications. Interested in React, Python, and Django, and eager to learn, grow, and contribute to innovative projects.',
 location: 'Hyderabad, India',
 email: 'sindhumandalapu7@gmail.com',
   links: {
