@@ -1,8 +1,8 @@
-import { useRef } from 'react';
+
 import { motion } from 'framer-motion';
 import { achievements, certifications } from '../data/portfolio';
 import { EASE, SectionHeading, Tilt } from './fx';
-import { RailButtons } from './Rail';
+
 
 function Laurel({ side }: { side: 'l' | 'r' }) {
   return (
@@ -34,7 +34,7 @@ function Laurel({ side }: { side: 'l' | 'r' }) {
 }
 
 export default function Achievements() {
-  const rail = useRef<HTMLDivElement>(null);
+  
   const issuers = Array.from(new Set(certifications.map((c) => c.issuer)));
 
   return (

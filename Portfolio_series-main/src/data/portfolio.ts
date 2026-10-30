@@ -14,23 +14,23 @@ export const profile = {
   eyebrow: 'WELCOME TO MY PORTFOLIO',
   seriesTag: 'Creating meaningful digital experiences.',
   originalLabel: 'A SINDHU PRIYA ORIGINAL',
-  role: 'Frontend Developer | Python & Django',
-  tagline: ['Frontend Developer', 'Python', 'Django'],
+  role: 'Python Full Stack | Frontend Developer',
+  tagline: ['Python Full Stack | Frontend Developer'],
   intro:
-  'Aspiring Frontend Developer passionate about creating modern, responsive, and user-friendly web applications. Interested in React, Python, and Django, with a strong desire to learn and grow as a developer.',
-  location: 'Hyderabad, India',
-  email: 'YOUR_EMAIL_HERE',
+  'Aspiring Full Stack Developer passionate about building modern, responsive, and user-friendly web applications. Interested in React, Python, and Django, with a strong focus on developing both frontend and backend skills and creating seamless user experiences. Eager to learn, grow, and contribute to innovative projects.',
+location: 'Hyderabad, India',
+email: 'sindhumandalapu7@gmail.com',
   links: {
     linkedin: 'https://www.linkedin.com/in/mandalapu-sindhu-priya-27b0bb40a/',
-    github: 'YOUR_GITHUB_PROFILE_URL',
+    github: 'https://github.com/sindhupriyamandalapu',
   },
-  resumePdf: '/assets/YOUR_RESUME_FILE.pdf',
+  resumePdf: '/assets/Sindhu_Priya_Resume_doc.pdf',
   portrait: {
     src: '/assets/YOUR_PHOTO_FILE.webp',
     srcSet: '',
     alt: 'Portrait of Mandalapu Sindhu Priya',
   },
-  interests: ['Frontend Development', 'React', 'Python', 'Django'],
+  interests: ['Python Full Stack | Frontend Developer',],
 };
 
 
@@ -102,7 +102,7 @@ export const projects: Project[] = [
   {
     id: 'parkway-digital-healthcare',
     title: 'Parkway Digital Healthcare',
-    year: '2023',
+    year: '2024',
     genre: 'Healthcare • Digital Solution',
     logline:
       'A digital healthcare project focused on supporting accessible and convenient healthcare services.',
