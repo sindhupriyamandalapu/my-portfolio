@@ -16,7 +16,7 @@ export const profile = {
   originalLabel: 'A SINDHU PRIYA ORIGINAL',
   role: 'Python Full Stack | Frontend Developer',
   tagline: ['Python Full Stack | Frontend Developer'],
-  intro: 'Aspiring Full Stack Developer passionate about building modern, responsive, and user-friendly web applications. Interested in React, Python, and Django, and eager to learn, grow, and contribute to innovative projects.',
+  intro: 'Python Full Stack and Frontend Developer with professional experience in web application development, responsive user interfaces, and backend integration. Skilled in Python, Django, JavaScript, React, and SQL, with a focus on building user-friendly and reliable applications.',
 location: 'Hyderabad, India',
 email: 'sindhumandalapu7@gmail.com',
   links: {
@@ -65,16 +65,16 @@ export const experience = [
     ],
   },
   {
-    company: "Syneix Software Solutions",
-    role: "Associate Software Engineer",
+    company: "Mythri Ojas Technologies",
+    role: "Software Developer Intern",
     place: "India",
-    period: "Aug 2023 – Oct 2024",
+    period: "Oct 2023 – Sep 2024",
     points: [
-      "Participated in the development of web-based applications, translating functional requirements into interactive and user-friendly interfaces.",
-      "Designed and implemented reusable UI components using HTML, CSS, JavaScript, and Bootstrap to maintain consistency across application pages.",
-      "Worked with Python, Django, and database technologies to support backend operations, data processing, and application integration.",
-      "Performed functional testing, debugging, and troubleshooting to identify defects and ensure reliable application behavior.",
-      "Followed software development practices involving version control, code maintenance, and collaboration to support efficient project delivery.",
+      "Gained practical experience in web application development using Python, Django, HTML, CSS, and JavaScript.",
+      "Assisted in developing responsive user interfaces and reusable frontend components.",
+      "Worked with team members to understand project requirements and implement application features.",
+      "Learned to debug application issues and perform functional testing.",
+      "Developed foundational skills in software development practices, version control, and team collaboration."
     ],
   },
 ];
@@ -331,12 +331,12 @@ export const skillCategories: SkillCategory[] = [
 export const skillEvidence: Record<string, string[]> = {
   Python: [
     'Associate Software Engineer — Mythri Ojas Technologies',
-    'Associate Software Engineer — Syneix Software Solutions',
+
     'Smart Helmet for Mining Workers',
   ],
   JavaScript: [
     'Frontend Development — Mythri Ojas Technologies',
-    'Web Application Development — Syneix Software Solutions',
+    
   ],
   HTML: [
     'Responsive Web Development',
@@ -348,7 +348,7 @@ export const skillEvidence: Record<string, string[]> = {
   ],
   Bootstrap: [
     'Frontend Development — Mythri Ojas Technologies',
-    'Web Application Development — Syneix Software Solutions',
+    
   ],
   Django: [
     'Web Application Development',
@@ -458,18 +458,18 @@ export const seasons: Season[] = [
   },
   {
     number: 2,
-    title: 'My First Professional Journey',
-    period: 'Aug 2023 – Oct 2024',
-    synopsis:
-      'Started my professional career as an Associate Software Engineer at Syneix Software Solutions.',
+title: 'My Internship Journey',
+period: 'Oct 2023 – Sep 2024',
+synopsis:
+  'Started my professional journey as a Software Developer Intern at Mythri Ojas Technologies.',
     episodes: [
       {
         code: 'S02 E01',
-        title: 'Frontend Development',
-        description:
-          'Developed web application interfaces using HTML, CSS, JavaScript, and Bootstrap.',
-        tags: ['HTML', 'CSS', 'JavaScript', 'Bootstrap'],
-        runtime: 'Aug 2023 – Oct 2024',
+        title: 'Frontend Development Internship',
+description:
+  'Gained practical experience developing web application interfaces using HTML, CSS, JavaScript, and Bootstrap.',
+tags: ['HTML', 'CSS', 'JavaScript', 'Bootstrap'],
+runtime: 'Oct 2023 – Sep 2024',
         palette: ocean,
       },
       {
@@ -478,7 +478,7 @@ export const seasons: Season[] = [
         description:
           'Worked with Python, Django, MySQL, and REST APIs to support application functionality and frontend-backend integration.',
         tags: ['Python', 'Django', 'MySQL', 'REST APIs'],
-        runtime: 'Syneix Software Solutions',
+        runtime: 'Mythri Ojas Technologies',
         palette: jade,
       },
     ],
@@ -602,13 +602,13 @@ export const introSlides: IntroSlide[] = [
     chips: ['Web Development', 'Responsive UI'],
   },
   {
-    kicker: 'Previous Experience',
-    title: 'Software Development',
-    lines: [
-      'Syneix Software Solutions',
-      'Aug 2023 – Oct 2024',
-    ],
-    chips: ['Python', 'Django', 'MySQL'],
+    kicker: 'Internship',
+title: 'Software Developer Intern',
+lines: [
+  'Mythri Ojas Technologies',
+  'Oct 2023 – Sep 2024',
+],
+chips: ['Python', 'Django', 'MySQL'],
   },
   {
     kicker: 'Projects',
