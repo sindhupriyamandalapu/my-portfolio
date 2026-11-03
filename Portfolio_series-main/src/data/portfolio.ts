@@ -23,7 +23,7 @@ email: 'sindhumandalapu7@gmail.com',
     linkedin: 'https://www.linkedin.com/in/mandalapu-sindhu-priya-27b0bb40a/',
     github: 'https://github.com/sindhupriyamandalapu',
   },
-  resumePdf: '/assets/Sindhu_Priya_Resume_doc.pdf',
+  resumePdf: '/assets/resume.pdf',
   portrait: {
     src: '/assets/YOUR_PHOTO_FILE.webp',
     srcSet: '',
